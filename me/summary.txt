@@ -1,0 +1,12 @@
+Carlos Antonio Vallejo Gonzalez — Flutter Mobile Developer
+Flutter developer with expertise in Clean Architecture, Riverpod/Bloc, and Firebase, plus AI integrations (TFLite, OpenAI). Published apps to App Store/Google Play with focus on scalability, UX, and efficiency.
+
+Experience
+Labor Mexicana (2024–Present): Led Flutter + Firebase app for 550+ employees, added facial recognition and payroll validations (saved 100+ HR hours/month), and improved response times by 25%.
+
+CreearTelo (2023–2024): Built Uber-style apps with real-time tracking, payments, and chat; managed store releases.
+
+Freelance (2022–2023): Developed app for Chivas de Guadalajara with OpenAI and 3D tours.
+
+Skills
+Flutter, Dart, Firebase, MySQL/PostgreSQL, TensorFlow Lite, OpenAI, Git, SCRUM.
