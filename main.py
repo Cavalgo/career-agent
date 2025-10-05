@@ -7,4 +7,4 @@ if __name__ == "__main__":
         type="messages",
         title="Agente de carrera de Carlos Vallejo",
         description="Pregúntame sobre la experiencia, habilidades y proyectos de Carlos.",
-    ).launch()
+    ).launch(share=True)
