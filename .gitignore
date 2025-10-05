@@ -1,23 +1,29 @@
-# Python-generated files
-__pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+# Tool caches
+.gradio/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage*
+.pyre/
+.pytype/
 
-# Virtual environments
-.venv/
+# Python packaging/build artifacts
+.eggs/
+*.egg
+*.egg-info/
+*.whl
 
-# Environment & secrets
-.env
+# Local data & logs
+*.log
+*.sqlite
+*.sqlite3
+*.db
 
-# IDE/editor settings
-.vscode/
-.idea/
+# Jupyter
+.ipynb_checkpoints/
 
-# OS junk
-.DS_Store
+# OS
+Thumbs.db
 
-# uv lock file (can be regenerated with uv sync)
-uv.lock
+# uv
+.uv/
