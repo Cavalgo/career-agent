@@ -7,6 +7,9 @@
 .pyre/
 .pytype/
 
+.env
+.env.*
+
 # Python packaging/build artifacts
 .eggs/
 *.egg
@@ -27,3 +30,4 @@ Thumbs.db
 
 # uv
 .uv/
+
