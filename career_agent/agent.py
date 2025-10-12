@@ -216,6 +216,12 @@ def chat(message: str, history: List[Dict[str, str]]) -> str:
     summary = read_text_file(SUMMARY_TXT)
     system_prompt = build_system_prompt(NAME, summary, linkedin_text)
 
+    #lets print history
+    print("History:")
+    for h in history:
+        print(f"{h['role']}: {h['content']}")
+    print(f"User message: {message}")
+
     messages: List[Dict[str, str]] = [{"role": "system", "content": system_prompt}]
     # Gradio passes history as [{"role": "user"/"assistant", "content": "..."}]
     messages.extend(history)
