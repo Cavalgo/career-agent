@@ -1,0 +1,10 @@
+# Ignore everything by default
+*
+
+# Allow only essential files
+!.hfignore
+!main.py
+!requirements.txt
+!README.md
+!career_agent/**
+!me/**
